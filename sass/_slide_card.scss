@@ -1,0 +1,41 @@
+.card{
+    margin: 10px;
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+    p{
+        margin: 10px;
+    }
+   
+    .profile-pic{
+        position: relative;
+        left: 250px;
+    }
+    .profile{
+        h4{
+            text-align: center;
+        }
+    }
+    .ptc-ngoac{
+        position:absolute;
+        #ngoac{
+            position:relative;
+            width: 50px;
+            left: 270px;
+            bottom: 270px;
+        }
+    }
+}
+.ptc-ngoac{
+    position:absolute;
+    #ngoac{
+        position:relative;
+        width: 50px;
+        left: 300px;
+        bottom: 300px;
+    }
+}

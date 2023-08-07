@@ -1,0 +1,111 @@
+.pic-coach{
+    ul{
+        
+        display: flex;
+        li{
+            position: relative;
+            margin: 4%;
+            list-style: none;
+            img{
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+            }
+            .coach{
+                text-align: center;
+                padding-left: 20px;
+                    #Name-coach{
+                        font-weight: bold;
+                        font-size: 150%;
+                    }
+                    #position{
+                        font-weight: bold;
+                        color: chocolate;
+                    }
+            }
+            // icon share
+            .container-share{
+                position: absolute;
+                top: 20px;
+                left: 70%;
+                .tron{
+                    width: 50px;
+                    height: 50px;
+                    background-color:chocolate;
+                    border-radius:100%;
+                    line-height:50px;
+                    text-align:center;
+                    vertical-align:middle;
+                    display:inline-block;
+                    i{
+                        color: white;
+
+                    }
+                }
+            }
+        }
+    }
+}
+.slide-s2{
+    margin: 100px;
+    img{
+        position: block;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+             
+    }
+    .coach{
+        // text-align: center;
+        padding-left: 20px;
+            #Name-coach{
+                font-weight: bold;
+                font-size: 150%;
+            }
+            #position{
+                font-weight: bold;
+                color: chocolate;
+            }
+    }
+    .container-share{
+        position:relative;
+       bottom : 300px;
+        left: 250px;
+        .tron{
+            width: 50px;
+            height: 50px;
+            background-color:chocolate;
+            border-radius:100%;
+            line-height:50px;
+            text-align:center;
+            vertical-align:middle;
+            display:inline-block;
+            i{
+                color: white;
+
+            }
+        }
+    }
+}
+.button-readmore{
+    position:relative;
+    bottom: 100px;
+    left: 800px;
+    button {
+        background: transparent;
+        background-color: chocolate;
+        color: white;
+        padding: 16px 28px;
+        border-radius: 100px;
+        width: 200px;
+        height: 70px;
+      }
+}
+.slick-slide-s2 {
+    margin: 10px
+}
+
+.slick-slide-s2 img {
+    width: 100%;
+    border: 0px solid #fff
+}

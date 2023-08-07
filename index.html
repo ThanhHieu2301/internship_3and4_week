@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực tập tuần 6</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- link font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+    <!-- link slide -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- slide s2 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/index.js"></script>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- link counter js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>  
+    <!-- link parallax -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <!-- link light gallery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"  />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- link wow -->
+    <link href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+<style>
+.mySlides {
+    display:none;
+    width: 100%;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+</head>
+<body>
+    <header class="header">
+
+        <nav class="nav">
+            <h1 class="logo">LOGO</h1>
+            <ul>
+                <li class="nav-item">
+                    <li>
+                    <a href="#">Home <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#aboutus">About us <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a  href="#courses">Courses <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                    <a href="#products">Products <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#blog">Blog <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#contants">Contants <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#multipage">Multipage <i style="font-size: 10px;" class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-shopping-bag"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-user"></i>
+                    </li>
+            </ul>
+        </nav>
+      
+      </header>
+        
+        <div class="w3-content w3-display-container" id="slide-s1" style="max-width:100%">
+          <img class="mySlides thumbnail" src="images/slide-s1.1.jpg" style="width:100%; height: 800px;">
+          <img class="mySlides thumbnail" src="images/slide-s1.2.jpeg" style="width:100%;height: 800px;">
+          <img class="mySlides thumbnail" src="images/slide-s1.jpeg" style="width:100%;height: 800px;">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+           
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+        <div id="text">
+            <h1 style="color: white;font-size: 70px;font-weight: bold;">Expand Your </br> career Opportunities</h1>
+            <p>Avez-vous vu la tendre rose,
+              Laimable fille dun beau jour,
+              Quand au printemps à peine éclose,</br>
+              Elle est limage de lamour ?
+              Telle à nos yeux, plus belle encore,
+              Parut Eudoxie aujourhui :</br>
+              Plus dun printemps la vit éclore,
+              Charmante et jeune comme lui.</p>
+              <div class="button-readmore">
+                <button type="submit">Read More &rarr;</button>
+            </div>
+            <div class="button-readmore2">
+                <button type="submit">Sign up now &rarr;</button>
+            </div>
+        </div>
+        
+  
+        </br>
+        <!-- mục About us -->
+      <div id="aboutus" class="two">
+            <div class="gallary">
+                <a href="images/1.jpg"> <img src="images/1.jpg" ></a>
+                <p id="ad-year">16 </br>
+                     Years of</br>
+                      Experience</p>
+            </div>
+            <div class="abt-scl">
+                <a style="color: chocolate;font-style: italic; font-size: 20px;">About our School</a>
+            </br>
+                <a class="title-s1">
+                    Online Granduate </br> 
+                    School </br> 
+                    for Adult & Children
+                </a>
+                <p>Avez-vous vu la tendre rose,
+                    Laimable fille dun beau jour,
+                    Quand au printemps à peine éclose,</br>
+                    Elle est limage de lamour ?
+                    Telle à nos yeux, plus belle encore,
+                    Parut Eudoxie aujourdhui :</br>
+                    Plus dun printemps la vit éclore,
+                    Charmante et jeune comme lui.</p>
+                <ul style="font-weight: bold;font-size: 20px;list-style: none;">
+                    <li><a>&#8730;</a>  Flexible training programs</li>
+                    <li><a>&#8730;</a>  Experienced teacher</li>
+                    <li><a>&#8730;</a>  Free incomming lessons</li>
+                </ul>
+                <img class="phone" src="images/phone.png">
+                <div class="button-readmore">
+                    <button type="submit">Read More &rarr;</button>
+                </div>
+                <a class="num-phone"><i class="fas fa-male"></i>   500 212 09 88</a>
+            </div>
+      </div>
+      <!--mục Course Catergories -->
+        <div id="courses" class="three">
+            <div class="top-box">
+                <a>Start now</a>
+                <h1>Course Catergories</h1>
+                <hr  width="5%" size="3px" align="center" color="chocolate" />
+            </div>
+            <ul class="box-area">
+                <li>
+                    <div class="box">
+                        <img src="images/art.jpg" >
+                        <h1>Art & Design</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/business.jpg" >
+                        <h1>Business & Finance</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/digital.jpg" >
+                        <h1>Digital Marketing</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/fitness.jpg" >
+                        <h1>Fitnes & Yoga</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>          
+            </ul>
+            <ul class="box-area">
+                <li>
+                    <div class="box">
+                        <img src="images/beauty-icon-12.jpg" >
+                        <h1>Heath & Beauty</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/dev.jpg" >
+                        <h1>IT Development</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/flag.jpg" >
+                        <h1>Languages</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="box">
+                        <img src="images/camera.jpg" >
+                        <h1>Photography</h1>
+                        <a>7 programs</a>
+                    </div>
+                </li>          
+            </ul>
+            <div class="bot-box">
+                <a>View all categories &rarr;</a>
+            </div>
+        </div>
+        <!-- mục video Cognitive video lessons for children -->
+        <div class="four">
+            <div class="container">              
+                <div class="video_s1">
+                    <img id="video1"  src="images/screen-2.jpg"  >
+                    <img id="play-button" src="images/play-button.jpg"  >
+                        <a>Watch Video</a>                
+                </div>  
+                <p class="text-on-pic">
+                    Cognitive </br>
+                    video lessons </br>
+                    for children
+                </p>
+                <div class="button-readmore">
+                    <button type="submit">Read More &rarr;</button>
+                </div>
+            </div>
+        </div>
+            <div class="text-2">
+                <div class="bot-box-2">
+                    <a id="little-word">Learn Online</a>
+                    <h1>Popular Course</h1>
+                    <hr  width="30%"  />
+                    
+                </div>
+                
+                <div class="four-pic wow fadeInUp"> 
+                    <ul id="pic-4">
+                        <li>
+                            <a href="images/work1.jpg" >
+                                <img src="images/work1.jpg"></a>
+                            <a id="title">Smart Interface Design</a>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                            <div class="ptc-tron">
+                                <div class="tron">Free</div>
+                            </div>
+                            <div class="ptc-tron-2">
+                                <div class="tron2">Art & Design</div>
+                            </div>
+                            <a id="readmore" style="font-style: italic;">
+                                Read more &rarr;
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/work2.jpg" >
+                                <img src="images/work2.jpg"></a>
+                            <a id="title">Advanced Mobile Interface</a>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                                <div class="ptc-tron">
+                                    <div class="tron">$39</div>
+                                </div>
+                                <div class="ptc-tron-2">
+                                    <div class="tron2">Art & Design</div>
+                                </div>
+                                <a id="readmore" style="font-style: italic;">
+                                    Read more &rarr;
+                                </a>
+                        </li>
+                        <li>
+                            <a href="images/work3.jpg" >
+                                <img src="images/work3.jpg"></a>
+                            <a id="title">Creating Fashion Make-up</a>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                                <div class="ptc-tron">
+                                    <div class="tron">$49</div>
+                                </div>
+                                <div class="ptc-tron-2">
+                                    <div class="tron2">Art & Design</div>
+                                </div>
+                                <a id="readmore" style="font-style: italic;">
+                                    Read more &rarr;
+                                </a>
+                        </li>
+                        <li>
+                            <a href="images/work4.jpg" >
+                                <img src="images/work4.jpg"></a>
+                            <a id="title">Mobile Photography</a>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                                <div class="ptc-tron">
+                                    <div class="tron">$29</div>
+                                </div>
+                                <div class="ptc-tron-2">
+                                    <div class="tron2">Art & Design</div>
+                                </div>
+                                <a id="readmore" style="font-style: italic;">
+                                    Read more &rarr;
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             <!-- mục có bộ đếm và khung đăng kí -->
+            <div class="five">
+                <div>
+                    <p class="title-five">
+                        Online Graduate School for <a>Adult & Children</a>, Suspendisse </br>
+                        metus elit, iaculis eu fermentum eget, viverra eu iectus, Integer </br>
+                        commodo a libero.
+                    </p>
+                </div>
+                <!-- bộ đếm -->
+                <div class="row">
+                    <div class="main_counter_content text-center white-text wow fadeInUp">
+                            <div class="box">
+                                <h2 class="">168+</h2>
+                                <p>Professional Courses</p>
+                            </div>                       
+                            <div class="box">
+                                <h2 class="statistic-counter">75</h2>
+                                <p>Experienced Teachers</p>
+                            </div>    
+                            <div class="box">
+                                <h2 class="statistic-counter">154</h2>
+                                <p>Lesson per Week</p>
+                            </div>
+                            <div class="box">
+                                <h2 class="statistic-counter">620</h2>
+                                <p>Video Tutorial</p>
+                            </div>
+                    </div>
+                </div>
+                <!-- khung đăng kí -->
+                <div class="container_sign-up">
+                    <img  src="images/screen-3.jpg">
+                    <p class="Title-on-pic-2">
+                        Sign up for a</br>
+                        <a id="bold-text-title">Free Trial</a> Lesson</br>
+                        by Zoom
+                    </p>
+                    <p id="text-on-pic-3">
+                        Quisque commondo , magna nec docv </br>
+                        msan euimod, tellus mi ornare </br>
+                        enim, quis conque elit.
+                    </p>
+                    <a id="readmore" style="font-style: italic;">
+                        Read more &rarr;
+                    </a>
+                    <div class="registration">
+                        <div class="regis-area">
+                            <div>
+                                <input class="text-regis" type="name" placeholder="Your name">  
+                            </div>
+                            <div>
+                                <input class="text-regis" type="email" placeholder="Email">
+                            </div>                           
+                            <div>
+                                <select>
+                                <option value="">Select Sourse</option>
+                                <option >Smart Interface Design</option>
+                                <option >Advanced Mobile Interface</option>
+                              </select>
+                            </div>
+                            
+                        </div>
+                        <div class="button-readmore">
+                            <button type="submit">Send Request</button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- khung giới thiệu các teacher -->
+                <div class="top-box">
+                    <a>Our team</a>
+                    <h1>Meet Our Teachers</h1>
+                    <hr  width="5%" size="3px" align="center" color="chocolate" />
+                    <p>Avez-vous vu la tendre rose,
+                        Laimable fille dun beau jour,</br>
+                        Quand au printemps à peine éclose,
+                        Elle est limage</br> de lamour ?</p>
+                </div>
+
+                <div class="slide-s2">
+                    <div>
+                        <img src="images/hu1.png">
+                        <div class="coach">
+                            <a id="Name-coach">
+                                Hania Welch
+                            </a>
+                        </br>
+                            <a id="position">Business Coach</a>
+                        </div>
+                        <div class="container-share">
+                            <div class="tron">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/hu2.png"> 
+                        <div class="coach">
+                            <a id="Name-coach"> 
+                                Michele Klein
+                            </a>
+                            </br>
+                            <a id="position">Business Coach</a>
+                        </div>
+                        <div class="container-share">
+                            <div class="tron">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/hu3.png">
+                        <div class="coach">
+                            <a id="Name-coach">
+                                Jena Miles
+                            </a>
+                        </br>
+                            <a id="position">Manager</a>
+                    </div>
+                    <div class="container-share">
+                        <div class="tron">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                        <img src="images/hu4.png">
+                        <div class="coach">
+                            <a id="Name-coach">
+                                Eden Santos
+                            </a>
+                        </br>
+                            <a id="position">CEO</a>
+                    </div>
+                    <div class="container-share">
+                        <div class="tron">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                        <img src="images/hu3.png">
+                        <div class="coach">
+                            <a id="Name-coach">
+                                Jena Miles
+                            </a>
+                        </br>
+                            <a id="position">Manager</a>
+                    </div>
+                    <div class="container-share">
+                        <div class="tron">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="button-readmore">
+                    <button type="submit">Read More &rarr;</button>
+                </div>
+                        <div class="video_s2">
+                                <img id="video2" class="thumbnail" src="images/img-teamwork.jpg" width="100%" height="1000px">
+                                <img id="play-button" src="images/play-button.jpg" width="100px" height="100px" onclick="playVideo('media/teamwork.mp4')">
+                                    <a>Watch Video</a>
+
+                                
+                        </div>  
+                        <div class="video-player-2" id="videoPlayer">
+                            <video width="100%" controls autoplay>
+                                <source src="media/teamwork.mp4" type="video/mp4" id="myVideo">
+                            </video>
+                            <img src="images/close-button.jpg" class="close-btn" onclick="stopVideo()">
+                            
+                        </div>
+                        <div class="slide-s3">
+                          
+                            <div class="card">
+                                <div class="card-body">
+                                    
+                                    <div class="template-demo">
+                                        <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
+                                        <div class="col-sm-10">
+                                            <div class="profile">
+                                                <!-- <h4 class="cust-name">Patric Stone</h4> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ptc-ngoac">
+                                    <img id="ngoac" src="images/ngoac.png">
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="card-body">
+                                
+                                    <div class="template-demo">
+                                        <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
+                                        <div class="col-sm-10">
+                                            <div class="profile">
+                                                <!-- <h4 class="cust-name">Patric Stone</h4> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="ptc-ngoac">
+                                    <img id="ngoac" src="images/ngoac.png">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="template-demo">
+                                        <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
+                                        <div class="col-sm-10">
+                                            <div class="profile">
+                                                <!-- <h4 class="cust-name">Patric Stone</h4> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ptc-ngoac">
+                                    <img id="ngoac" src="images/ngoac.png">
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                
+                                    <div class="template-demo">
+                                        <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
+                                        <div class="col-sm-10">
+                                            <div class="profile">
+                                                <!-- <h4 class="cust-name">Patric Stone</h4> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ptc-ngoac">
+                                    <img id="ngoac" src="images/ngoac.png">
+                                </div>
+                            </div>
+                        </div>
+                <!-- mục tải app -->
+                <div class="seven">
+                    <!-- mục store, app -->
+                    <div class="show-app">   
+                        <div>
+                            <img class="book" src="images/educational-book.png">
+                        </div>
+                        <a class="little-title">Online Store</a>
+                        <p id="title-app"> How to <a id="orange-text">upgrade your skills</a> without leaving home.</br>
+                            Bestseller 2021
+                        </p>
+                        <p class="p">Avez-vous vu la tendre rose,
+                            Laimable fille dun beau jour,</br>
+                            Quand au printemps à peine éclose,
+                            Elle est limage</br> de lamour ?</p>
+                        <p id="text-app">
+                            Download the digital book <a id="orange-text">to your smartphone :</a>
+                        </p>
+                        <span class="button-text"><sup>$</sup>29</span>
+                        <img class="store" src="images/app.jpg">
+                   
+                    </div>
+                    </div>
+                </br>
+                <!-- mục Subcribe to our newsletter -->
+                    <div class="text-on-map">
+                        <div class="container-3">
+                            <img id="map-pic" class="thumbnail" src="images/world-map.png">
+                            <p>Subcribe </br>
+                                <a>to our newsletter</a>
+                            </p>
+                            <div>
+                                <img id="pic-bell" src="images/bell.png">
+                            </div>
+                            <div>
+                                <img id="pic-click" src="images/mouse-click.jpg">
+                            </div>
+                           
+                        </div>
+                        <div id="sub-btn">
+                                <div>
+                                    <input class="mail-sub" type="name" placeholder="Your email..">  
+                                </div>
+                              <span class="button-text">Subscribe</span>
+                            </div>
+                            
+                    </div>
+                    <!-- mục blog -->
+                <div id="blog" class="eight">
+                    <a id="our_blog" style="color: chocolate;font-style: italic; text-align: center;">Our blog</a>
+                    <h1 style="font-size: 50px;">Recent Article</h1>
+                    <hr  width="200px" size="3px" color="chocolate" />
+                </br>
+            </br>
+                   
+            <div class="gallery wow fadeInUp">
+                    <div class="pic-blog1">
+                        <!-- <img src="images/blog1.jpeg" > -->
+                        <a href="images/blog1.jpeg" ></a>
+                            <img src="images/blog1.jpeg"></a>
+                    </br>
+                </br>
+                        <div>
+                            <i class="fas fa-calendar-day"> May,12,2021</i>
+                        <i class="far fa-eye">55</i>
+                        <i class="fas fa-comment">2</i>
+                        </div>
+                        <h2 style="font-size: 50px;">The Role of the Elementary </br>
+                            Teacher in Education
+                        </h2>
+                    </div>
+                    <ul class="3-pic-blog">
+                        <li>
+                            <!-- <img id="pic-blog-1" src="images/blog3.jpeg"> -->
+                            <a href="images/blog3.jpeg" >
+                                <img src="images/blog3.jpeg"></a>
+                            <div class="info-blog1">
+                                <i class="fas fa-calendar-day"> Agril,12,2021</i>
+                            <i class="far fa-eye">27</i>
+                            <i class="fas fa-comment">3</i>
+                            <h4>Intergration of Technology </br>
+                                into Education
+                            </h4>
+                            <p>Avez-vous vu la tendre rose,
+                        Laimable fille dun beau jour,</br>
+                        Quand au printemps à peine éclose,
+                        Elle est limage</br> de lamour ?</p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <img id="pic-blog-1" src="images/blog2.jpeg"> -->
+                            <a href="images/blog2.jpeg" >
+                                <img src="images/blog2.jpeg"></a>
+                            <div class="info-blog2">
+                                <i class="fas fa-calendar-day"> March,12,2021</i>
+                            <i class="far fa-eye">18</i>
+                            <i class="fas fa-comment">1</i>
+                            <h4>Fundamentals of Classroom</br>
+                                Magagement    
+                            </h4>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <img id="pic-blog-1" src="images/blog4.jpeg"> -->
+                            <a href="images/blog4.jpeg" >
+                                <img src="images/blog4.jpeg"></a>
+                            <div class="info-blog3">
+                                <i class="fas fa-calendar-day"> December,9,2009</i>
+                            <i class="far fa-eye">56</i>
+                            <i class="fas fa-comment">2</i>
+                            <h4>
+                                Features of Learning </br>
+                                Functional Programming
+                            </h4>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+                <!-- mục Join our school -->
+                <div class="join_school">
+                    <div class="pic-near-footer">
+                        <div class="container-2">
+                            <img class="thumbnail" src="images/pic-near-footer.jpg">
+                            <a id="text-on-pic-near-foot2">Join our school</a>
+                            <a id="text-on-pic-near-foot"> Ready to start learing? Sign up now!</a>
+                            <div class="button-readmore">
+                                <button type="submit">Read More &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="top">
+                        <!-- nút scroll top -->
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                    <footer>
+                        <ul>
+                        <li class="footer-first ">
+                            <!-- educam của footer -->
+                            <h1 style="font-size: 50px;color: white;">Educam</h1>
+                            <p>Avez-vous vu la tendre rose,
+                                Laimable fille dun beau jour,</br>
+                                Quand au printemps à peine éclose,
+                                Elle est limage</br> de lamour ?</p>
+
+                        </br>
+                            <img src="images/Phone_icon.png">
+                            <a style="font-size: 30px;">0 (550) 680-34-12</a>
+                            <h3 style="color: yellow;">Round-the-clock</h3>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li class="footer-second">
+                            <!-- Explore của footer -->
+                            <h2 style="font-size: 40px;">
+                                Explore
+                            </h2>
+                            <hr  width="100px" size="3px" color="chocolate" />
+                            <ul>
+                                <li><i class="fas fa-check"></i> Education</li>
+                                <li><i class="fas fa-check"></i> Product</li>
+                                <li><i class="fas fa-check"></i> Cart</li>
+                                <li><i class="fas fa-check"></i> Feedback</li>
+                            </ul>
+                            <ul id="ul2">
+                                <li><i class="fas fa-check"></i> Articles</li>
+                                <li><i class="fas fa-check"></i> FAQ</li>
+                                <li><i class="fas fa-check"></i> Gallery</li>
+                                <li><i class="fas fa-check"></i> Contact</li>
+                            </ul>
+                            <!-- Galleries của footer -->
+                            </li>
+                                <li class="footer-third">
+                                
+                                    <h2 style="font-size: 40px;">
+                                        Galleries
+                                    </h2>
+                                    <hr  width="100px" size="3px"  color="chocolate" />
+                                    <div>
+                                        <img src="images/pic1.jpeg">
+                                        <img src="images/pic2.jpeg">
+                                        <img src="images/pic3.jpeg">
+                                    </div>
+                                    <div>
+                                        <img src="images/pic4.jpeg">
+                                        <img src="images/pic5.jpeg">
+                                        <img src="images/pic6.jpeg">
+                                    </div>          
+                                </li>
+                            </ul>                    
+                            <div class="text-end">
+                                <p id="end">Like theme <a id="den">@ All Rights Reserved - 2011</a> &#46; Purchare</p>
+                            </div>
+                    </footer>
+        
+</body>
+</html>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
+
+<script>
+     var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo(){
+        videoPlayer.style.display ="none";
+    }
+    function playVideo(file){
+        myVideo.src=file;
+        videoPlayer.style.display="block";
+    }
+</script>
+
+<script>
+    lightGallery(document.querySelector('.3-pic-blog'));
+</script>
+<script>
+    lightGallery(document.querySelector('.pic-4'));
+</script>
+<script>
+    lightGallery(document.querySelector('.gallary'));
+</script>
+<script>
+    new WOW().init();   
+</script>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image);
+</script>

@@ -1,0 +1,82 @@
+.container_sign-up{
+    position: relative;
+    img{
+        align-items: center;
+        border-radius: 10%;
+        width: 100%;
+        height: 1100px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Title-on-pic-2{
+        color: white;
+        font-size: 350%;
+        position: absolute;
+        left: 150px;
+        top: 100px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        #bold-text-title{
+            color: chocolate;
+        }
+    }
+    #text-on-pic-3{
+        color: white;
+        font-size: 200%;
+        position: absolute;
+        left: 150px;
+        top: 350px;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    #readmore{
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 600px;
+    }
+    // khu điền thông tin đăng kí
+    .registration{
+        .regis-area{
+            position: absolute;
+            top: 300px;
+            left: 60%;
+            .text-regis{
+                background: transparent;
+                background-color: white;
+                color: black;
+                padding: 16px 28px;
+                border-radius: 100px;
+                width: 390px;
+                height: 75px;
+                text-align: center;
+                margin: 10px;
+                border: 15px solid transparent;
+            }
+            select{
+                background: transparent;
+                background-color: white;
+                color: black;
+                border-radius: 100px;
+                width: 390px;
+                height: 75px;
+                text-align: center;
+                margin: 10px;
+                border: 15px solid transparent;
+            }
+        }
+        .button-readmore{
+        position: absolute;
+        top: 600px;
+        left: 60%;
+        margin: 10px;
+        button {
+            background: transparent;
+            background-color: black;
+            color: white;
+            // padding: 16px 28px;
+            border-radius: 100px;
+            width: 390px;
+            height: 75px;
+          }
+        }
+    }
+}

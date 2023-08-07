@@ -1,0 +1,77 @@
+
+.two{
+    height: 700px;
+    #ad-year{
+        position:relative;
+        font-size: 30px;
+        background: transparent;
+                background-color: chocolate;
+                color: white;
+                padding: 16px 28px;
+                border-radius: 100px;
+                width: 250px;
+                height: 200px;
+                border-radius: 5px;
+                text-align: center;
+                left: 500px;
+                bottom: 100px;
+    }
+    img{
+        position: relative;
+        width: 850px;
+        left: 5%;
+    }
+    .abt-scl{
+        position: relative;
+        bottom: 700px;
+        left: 60%;
+        .title-s1{
+            
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+    .button-readmore{
+        position: absolute;
+        top: 460px;
+        left: -5px;
+        button {
+            background: transparent;
+            background-color: chocolate;
+            color: white;
+            padding: 16px 28px;
+            border-radius: 100px;
+            width: 200px;
+            height: 70px;
+          }
+    }
+    .phone{
+        left: 200px;
+        width: 50px;
+        height: 50px;
+    }
+    .num-phone{
+        position: relative;
+        left: 200px;
+        bottom: 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
+.top-box{
+    padding-top: 10px;
+    text-align: center;
+    
+    a{
+        font-style: oblique;
+        color: rgb(187, 117, 31);
+    }
+    #line{
+        color: chocolate;
+        width: 3%;
+        size: 3px;
+        text-align: center;
+    }
+
+}

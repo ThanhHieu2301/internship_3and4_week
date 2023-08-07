@@ -1,0 +1,43 @@
+#text{
+    position: absolute;
+    h1{
+        position: relative;
+        bottom: 700px;
+        padding-left: 50px;
+    }
+    p{
+     position: relative;
+     bottom: 700px;
+     padding-left: 50px;
+     color: white;
+    }
+    .button-readmore{
+     position: relative;
+     bottom: 700px;
+     left: 100px;
+     button {
+         background: transparent;
+         background-color: chocolate;
+         color: white;
+         padding: 16px 28px;
+         border-radius: 100px;
+         width: 200px;
+         height: 70px;
+       }
+       
+ }
+ .button-readmore2{
+     position: relative;
+     bottom: 770px;
+     left: 400px;
+     button {
+         background: transparent;
+         background-color: chocolate;
+         color: white;
+         padding: 16px 28px;
+         border-radius: 100px;
+         width: 200px;
+         height: 70px;
+       }
+}
+}

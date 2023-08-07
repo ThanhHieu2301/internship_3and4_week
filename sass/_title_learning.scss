@@ -1,0 +1,43 @@
+.join_school{
+    .pic-near-footer{
+        .container-2{
+            position: relative;
+            img{
+                width: 100%;
+            }
+            #text-on-pic-near-foot2{
+                color: chocolate;
+                position: absolute;
+                left: 850px;
+                top: 50px;
+                font-size: 150%;
+                text-shadow: black 0.1em 0.1em 0.2em;
+                font-weight: bold;
+            }
+            #text-on-pic-near-foot{
+                color: white;
+                position: absolute;
+                left: 350px;
+                top: 100px;
+                text-shadow: black 0.1em 0.1em 0.2em;
+                font-weight: bold;
+                font-size: 500%;
+            }
+            .button-readmore{
+                position: absolute;
+                top: 250px;
+                left: 45%;
+                button {
+                    background: transparent;
+                    background-color: chocolate;
+                    color: white;
+                    padding: 16px 28px;
+                    border-radius: 100px;
+                    width: 200px;
+                    height: 70px;
+                  }
+            }
+            
+        }
+    }
+}

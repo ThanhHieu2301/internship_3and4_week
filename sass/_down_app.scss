@@ -1,0 +1,58 @@
+.seven{
+    // mục tải digial book
+    .show-app{
+        position: relative;
+        .little-title{
+            padding-left: 10%;
+            font-style: oblique;
+            color: rgb(187, 117, 31);
+            font-size: 150%;
+        }
+        #title-app{
+            padding-left: 10%;
+            width: 700px;
+            font-weight: bold;
+            font-size: 300%;
+            #orange-text{
+                color: chocolate;
+            }
+        }
+        .store{
+            padding-left: 70px;
+            width: 25%;
+        }
+        #text-app{
+            width: 480px;
+            padding-left: 10%;
+            color: chocolate;
+            font-weight: bold;
+            font-size: 120%;
+            #orange-text{
+                color: black;
+            }
+        }
+        .p{
+            width: 500px;
+            padding-left: 10%;
+            font-weight: bold;
+        }
+        .book{
+            position:absolute;
+            left: 1000px;
+            bottom: 100px;
+            width: 25%;
+        }
+        .button-text{
+            position:relative;
+            background-color: chocolate;
+            color: white;
+            padding: 16px 16px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 10px;
+            border: 15px solid transparent;
+            bottom: 450px;
+            left: 1300px;
+        }
+    }
+}   

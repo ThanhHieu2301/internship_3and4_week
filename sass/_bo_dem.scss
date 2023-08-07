@@ -1,0 +1,38 @@
+.five{
+    background-color: rgb(245, 234, 220);
+    width: 100%;
+    height: 800px;
+    .title-five{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 50px;
+        a{
+            color: tomato;
+        }
+    }
+    .row{ 
+        .fadeInUp{
+            
+            display: flex;
+                .box{
+                    background-color: white;
+                    width: 400px;
+                    height: 250px;
+                    padding-top: 20px;
+                    margin: 70px;
+                    list-style: none;   
+                    text-align: center;
+                    h2{
+                        color: tomato;
+                        font-size: 70px;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+                }
+        }
+    }
+}

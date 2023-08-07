@@ -1,0 +1,41 @@
+.eight{
+    position: relative;
+    #our_blog{
+        position:relative;
+        left: 900px;
+    }
+    h1{
+        position:relative;
+        left: 800px;
+    }
+    hr{
+        position:relative;
+        bottom:20px;
+    }
+    .pic-blog1{
+        margin-left: 40px;
+            width: 900px;
+            border-radius:10% ;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+        ul{
+            position:absolute;
+            left: 1000px;
+            bottom: 50px;
+            li{
+                display: flex;
+                list-style: none;
+                margin-bottom: 50px;
+                img{
+                    border-radius:10% ;
+                    width: 300px;
+                    margin-right: 50px;
+                }
+            }
+    }
+  
+}

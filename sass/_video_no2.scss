@@ -1,0 +1,39 @@
+.video_s2{
+    #video2{
+        position: relative;
+    }
+    #play-button{
+            position: relative;
+            bottom: 600px;
+            left: 50%;
+    }  
+    a{
+    font-size: 150%;
+    color: white;
+    position: relative;
+            bottom: 500px;
+            left: 44%;
+            font-style: italic;
+            text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+}
+.video-player-2{
+width: 99%;
+position:relative;
+left: 50%;
+top: -72%;
+transform: translate(-50%,-50%);
+display: none;
+video:focus{
+    outline: none;
+}
+.close-btn{
+    width: 50px;
+    position:absolute;
+    left: 98%;
+    top: 4%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+}
